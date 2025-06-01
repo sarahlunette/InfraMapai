@@ -1,0 +1,15 @@
+inframap_rag/
+# ├── app/
+# │   ├── main.py              # FastAPI app
+# │   ├── rag_chain.py          # RAG logic w/ spatial awareness
+# │   ├── geo_loader.py         # Load + filter shapefiles and geodata
+# │   ├── document_loader.py   # Load and clean PDFs, DOCX
+# │   └── utils.py             # Helper functions
+# ├── data/
+# │   ├── documents/           # Input reports, plans
+# │   └── geodata/             # Shapefiles, GeoJSON, etc.
+# ├── vectorstore/
+# │   └── chroma/
+# ├── templates/
+# │   └── infra_template.md   # Suggested project output format
+# └── requirements.txt

@@ -1,0 +1,25 @@
+# 6. Example Documents
+# ----------------------
+# /data/documents/
+# - National Urban Dev Plan (2022).pdf
+# - Coastal Roads Assessment.pdf
+# - Health Facility Risk Map.docx
+#
+# /data/geodata/
+# - vulnerable_roads.geojson
+# - schools_locations.shp
+# - flood_risk_areas.geojson
+
+# 7. Output Template (templates/infra_template.md)
+# -------------------------------------------------
+# Project: {{ title }}
+# Type: {{ infra_type }}
+# Priority: {{ criticality }}
+# Based on: {{ documents }} + {{ geodata }}
+# Description: {{ rationale }}
+# Resilience Score: {{ score }}
+# SDGs: {{ sdg_targets }}
+# Funding Options: {{ programs }}
+
+# This MVP can be extended with map-based UIs, risk overlays, or SDG-based filtering.
+# Want a Streamlit viewer with interactive map and project cards?
